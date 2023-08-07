@@ -22,7 +22,7 @@ export const App = () => {
     //   [st]: prevState[st] + 1,
     // }));
 
-    // !Present
+    // Present
     switch (st) {
       case 'good':
         setGood(prevState => prevState + 1);
